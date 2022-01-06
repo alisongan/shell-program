@@ -1,5 +1,5 @@
 # shell-program
-This is a rudimentary shell program. It supports basic commands pwd, cd, and exit as well as ls with args (actually any program can be run but I've only tested ls). The shell automatically filters out extra spaces or tabs.
+This is a rudimentary shell program I wrote for CMSC 15400 at UChicago. It supports basic commands pwd, cd, and exit as well as ls with args (actually any program can be run but I've only tested ls). The shell automatically filters out extra spaces or tabs.
 If you want to run multiple commands in one line the format is [command] ; [ command] ; .... 
 It also supports redirection (>). There is also a feature, advanced reditction (>+) which has the same format as >. If you >+ to a non existent file, it creates that file, 
 otherwise it writes whatever you intended to the beginning of the specified file. >+ feature is buggy though. 
